@@ -1,16 +1,14 @@
 {
-  "name": "gps2zip",
-  "description": "Convert GPS latitude/longitude pairs to US zip codes.",
-  "version": "2.1.0",
-  "author": "Nick Carneiro <nickc@trillworks.com>",
-  "dependencies": {
-    "tape": ">= 3.0.3",
-    "kdt": "0.1.0"
-  },
-  "main": "index.js",
-  "keywords": ["zip code", "zip", "geolocation", "location"],
-  "repository": "git://github.com/NickCarneiro/gps2zip",
-  "engines": { "node": ">= 0.4.9" },
-  "scripts": {"test": "node test/basic.js"}
+    "name": "gps2cl",
+    "description": "Convert GPS latitude/longitude pairs to the nearest Craigslist subdomain.",
+    "version": "1.1.0",
+    "author": "FUber.Cab <bacrefub@gmail.com>",
+    "dependencies": {
+        "tape": ">= 3.0.3",
+        "kdt": "0.1.0"
+    },
+    "main": "index.js",
+    "keywords": ["CraigsList", "craigs", "geolocation", "location"],
+    "repository": "git://github.com/FuberCab/gps2cl",
+    "engines": { "node": ">= 0.4.9" }
 }
-
